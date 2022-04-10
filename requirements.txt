@@ -3,4 +3,4 @@ numpy
 sklearn
 gunicorn
 tensorflow
-cv2
+opencv
