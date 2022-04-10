@@ -5,7 +5,7 @@ import pickle
 from keras.models import load_model
 
 # from keras.applications.vgg16 import preprocess_input
-model = load_model('/content/drive/MyDrive/Yoga posture detection/YogaNet_model_1_1.h5')
+model = load_model('YogaNet_model_1_1.h5')
 app = Flask(__name__)
 
 
