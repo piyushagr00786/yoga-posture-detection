@@ -41,7 +41,7 @@ def predict():
     positions=['downdog','goddess','plank','tree','warrior']
 
     # Load the TFLite model and allocate tensors.
-    interpreter = tf.lite.Interpreter(model_path="/content/drive/MyDrive/Yoga posture detection/project.tflite") # tflite file path
+    interpreter = tf.lite.Interpreter(model_path="project.tflite") # tflite file path
     interpreter.allocate_tensors()
 
     # Get input and output tensors.
